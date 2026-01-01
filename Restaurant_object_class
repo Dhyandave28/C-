@@ -1,0 +1,30 @@
+#include <iostream>
+#include <string>
+
+struct Student {
+  std::string name;
+  std::string category;
+  double rating;
+  std::string price;
+  bool delivery;
+
+};
+
+int main() {
+  Restaurant peter_luger;
+  Restaurant katz;
+
+  peter_lunger.name="Peter Luger Steak House";
+  peter_lunger.category="American";
+  peter_lunger.rating= 4.4;
+  peter_lunger.price="$$$";
+  peter_lunger.delivery= false;
+
+  katz.name = "Katz's Delicatessen";
+  katz.category = "Deli";
+  katz.rating = 4.5;
+  katz.price = "$$";
+  katz.delivery = false;
+
+  
+}
